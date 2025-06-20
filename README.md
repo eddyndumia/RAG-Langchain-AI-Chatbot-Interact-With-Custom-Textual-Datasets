@@ -24,8 +24,8 @@ This serves as a foundational architecture for building custom AI chat interface
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/pixegami/langchain-rag-tutorial.git
-cd langchain-rag-tutorial
+git clonehttps://github.com/eddyndumia/RAG-Langchain-AI-Chatbot-Interact-With-Custom-Textual-Datasets.git
+cd RAG-Langchain-AI-Chatbot-Interact-With-Custom-Textual-Datasets
 ```
 
 ### 2. Create a virtual environment
@@ -40,7 +40,7 @@ python -m venv .venv
 
 ```bash
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements.txt 
 ```
 
 > Note: Ensure `openai>=1.30.1` is installed to avoid known client compatibility issues.
@@ -85,7 +85,7 @@ This will:
 Use natural language to query your documents:
 
 ```bash
-python query_data.py "What does the White Rabbit do?"
+python query_data.py "What is psychology?"
 ```
 
 The script returns relevant answers based on vector similarity search against the embedded corpus.
